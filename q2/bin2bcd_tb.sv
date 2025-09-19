@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module bin2bcd_tb;
 
   // Testbench signals
@@ -5,5 +7,7 @@ module bin2bcd_tb;
   logic [3:0] bcd;
   logic carry;
 
+bin2bcd dut
+  
   // complete your tb
 endmodule
