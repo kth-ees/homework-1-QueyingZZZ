@@ -7,7 +7,11 @@ module bin2bcd_tb;
   logic [3:0] bcd;
   logic carry;
 
-bin2bcd dut
+  bin2bcd dut(
+    .binary(binary),
+    .bcd(bcd),
+    .carry(carry)
+  );
   
   // complete your tb
 endmodule
